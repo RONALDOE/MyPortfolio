@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "start": "npm run watch:css && vite start",
     "build": "npm run build:css && vite build",
@@ -16,6 +16,9 @@
     "watch:css": "postcss src/css/tailwind.css -o src/css/main.css"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^0.9.366",
     "autoprefixer": "^10.4.14",
@@ -23,6 +26,7 @@
     "postcss-cli": "^10.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.9.0",
     "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.2",
     "typed.js": "^2.0.16",

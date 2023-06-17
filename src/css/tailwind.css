@@ -10,3 +10,10 @@
     font-family: "Bebas Neue";
     src: url("../assets/BebasNeue-Regular.ttf");
   }
+
+  .spline{
+    width: 10rem !important;
+    height: 10rem !important;
+  }
+  html{  scroll-behavior: smooth;
+    }
