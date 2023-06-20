@@ -507,6 +507,9 @@ video {
 .ml-3 {
   margin-left: 0.75rem !important;
 }
+.ml-4 {
+  margin-left: 1rem !important;
+}
 .mr-3 {
   margin-right: 0.75rem !important;
 }
@@ -666,6 +669,9 @@ video {
 .text-left {
   text-align: left !important;
 }
+.text-center {
+  text-align: center !important;
+}
 .text-justify {
   text-align: justify !important;
 }
@@ -694,6 +700,9 @@ video {
 }
 .text-\[2\.8rem\] {
   font-size: 2.8rem !important;
+}
+.text-\[5rem\] {
+  font-size: 5rem !important;
 }
 .text-xl {
   font-size: 1.25rem !important;
