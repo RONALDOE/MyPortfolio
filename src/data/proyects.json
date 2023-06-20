@@ -10,7 +10,7 @@
         {
             "nombre": "Verso",
             "descripcion": "Aplicacion web orientada a la educacion de las Ciencias Sociales con juegos y mapas interactivos",
-            "rutaImagen": "../assets/verso.jpg",
+            "rutaImagen": "../assets/vers.jpg",
             "codigo": "https://github.com/tuusuario/proyecto2",
             "preview": "https://www.ejemplo.com/proyecto2"
         }
