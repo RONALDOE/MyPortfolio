@@ -1,12 +1,12 @@
 {
   "name": "myportfolio",
   "private": true,
-  "homepage": "http://ronaldoe.github.io/",
+  "homepage": "https://ronaldoe.github.io",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages-clean gh-pages -d dist",
     "dev": "vite",
     "start": "npm run watch:css && vite start",
     "build": "npm run build:css && vite build",
